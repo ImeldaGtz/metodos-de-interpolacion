@@ -94,7 +94,7 @@ public class lagrangeCuadratico extends AppCompatActivity {
             double fx1 = Double.parseDouble(fx1str);
             double fx2 = Double.parseDouble(fx2str);
 
-        // Fórmula en sí equis de
+        // Fórmula en sí
         double parte1 = ((x - x1) / (x0 - x1)) * ((x - x2) / (x0 - x2)) * fx0;
         double parte2 = ((x - x0) / (x1 - x0)) * ((x - x2) / (x1 - x2)) * fx1;
         double parte3 = ((x - x0) / (x2 - x0)) * ((x - x1) / (x2 - x1)) * fx2;

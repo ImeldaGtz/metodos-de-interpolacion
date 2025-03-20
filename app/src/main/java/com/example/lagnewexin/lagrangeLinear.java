@@ -87,7 +87,7 @@ public class lagrangeLinear extends AppCompatActivity {
             double fx0 = Double.parseDouble(fx0str);
             double fx1 = Double.parseDouble(fx1str);
 
-            // Fórmula en sí equis de
+            // Fórmula en sí
             double parte1 = ((x - x1) / (x0 - x1)) * fx0;
             double parte2 = ((x - x0) / (x1 - x0)) * fx1;
 

@@ -88,7 +88,7 @@ public class newtonLinear extends AppCompatActivity {
             double fx0 = Double.parseDouble(fx0str);
             double fx1 = Double.parseDouble(fx1str);
 
-            // Fórmula en sí equis de
+            // Fórmula en sí
             double lin = (fx1 - fx0) / (x1 - x0);
 
             double resultado = fx0 + lin * (x - x0);

@@ -93,7 +93,7 @@ public class newtonCuadratico extends AppCompatActivity {
             double fx1 = Double.parseDouble(fx1str);
             double fx2 = Double.parseDouble(fx2str);
 
-            // Fórmula en sí equis de
+            // Fórmula en sí
             double _b1 = (fx1 - fx0) / (x1 - x0);
             double _b2 = ( ((fx2 - fx0) / (x2 - x0)) - _b1) / (x2 - x1);
 
